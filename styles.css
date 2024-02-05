@@ -3,7 +3,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style-type: none;  
+    list-style: none;  
+}
+
+img, foto {
+    display: block;
+    margin: auto;
+    padding: auto;
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: #2c3e50;
+}
+
+p {
+
 }
 
 header {
@@ -18,7 +32,7 @@ header {
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ddd;
-    
+    border: none;
 }
 
 footer {
